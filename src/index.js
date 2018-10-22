@@ -1,6 +1,6 @@
 class ltJs {
   isMobile(){
-   return  /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)
+   return  /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent)
   }
   browserInfo(type) {
     var userAgent = navigator.userAgent.toLowerCase()
